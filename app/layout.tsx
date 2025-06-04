@@ -217,152 +217,33 @@ export default function RootLayout({
                         News
                       </Link>
 
-                      {/* Research Dropdown */}
                       <DropdownMenu>
                         <DropdownMenuTrigger className="text-gray-700 hover:text-green-600 transition-colors whitespace-nowrap flex items-center gap-1">
-                          Research
+                          Our Campuses
                           <ChevronDown className="h-4 w-4" />
                         </DropdownMenuTrigger>
                         <DropdownMenuContent className="w-96 p-4">
                           <div className="space-y-2">
                             <DropdownMenuItem>
                               <Link href="#" className="w-full">
-                                Centre For Critical Thinking, Teaching and
-                                Learning
+                                Ikot Ekpene
                               </Link>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
                               <Link href="#" className="w-full">
-                                Centre for Defence Studies And Documentation
+                                Lagos
                               </Link>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
                               <Link href="#" className="w-full">
-                                Academic Planning Unit
+                                Kaduna
                               </Link>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
                               <Link href="#" className="w-full">
-                                Research Methodology Office (RMO)
+                                Port Harcourt
                               </Link>
                             </DropdownMenuItem>
-                            <DropdownMenuItem>
-                              <Link href="#" className="w-full">
-                                Directorate for Collaborations, Affiliations and
-                                Linkages
-                              </Link>
-                            </DropdownMenuItem>
-                          </div>
-                        </DropdownMenuContent>
-                      </DropdownMenu>
-
-                      {/* TETFUND Dropdown */}
-                      <DropdownMenu>
-                        <DropdownMenuTrigger className="text-gray-700 hover:text-green-600 transition-colors whitespace-nowrap flex items-center gap-1">
-                          TETFUND
-                          <ChevronDown className="h-4 w-4" />
-                        </DropdownMenuTrigger>
-                        <DropdownMenuContent className="w-[600px] p-6">
-                          <div className="grid grid-cols-2 gap-8">
-                            <div className="space-y-2">
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  About TETFUND
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Interventions
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Physical Infrastructure/Program Upgrade
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Academic Staff Training & Development
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Teaching Practice
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Institution Based Research
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Conference Attendance
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  National Research Fund
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Special Intervention
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Library Development
-                                </Link>
-                              </DropdownMenuItem>
-                            </div>
-                            <div className="space-y-2">
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  ICT Support
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Academic Research Journal
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  TETFUND Project Maintenance
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Equipment Fabrication
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Entrepreneurship
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Academic Manuscript Development
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Disaster Recovery
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  High Impact
-                                </Link>
-                              </DropdownMenuItem>
-                              <DropdownMenuItem>
-                                <Link href="#" className="w-full">
-                                  Zonal Interventions
-                                </Link>
-                              </DropdownMenuItem>
-                            </div>
                           </div>
                         </DropdownMenuContent>
                       </DropdownMenu>

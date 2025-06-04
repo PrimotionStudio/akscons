@@ -43,7 +43,7 @@ export default function NewsArticlePage() {
           </Link>
 
           {/* Article Meta */}
-          <div className="flex items-center gap-6 text-sm text-gray-600 mb-8">
+          <div className="flex flex-col md:flex-row md:items-center gap-6 text-sm text-gray-600 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="h-4 w-4" />
               <span>June 03, 2025</span>
