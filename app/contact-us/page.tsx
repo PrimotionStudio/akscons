@@ -182,7 +182,7 @@ export default function ContactUsPage() {
                   <div>
                     <p className="text-sm text-gray-600">Email:</p>
                     <Link
-                      href="mailto:enquiries@nda.edu.ng"
+                      href="mailto:enquiries@akscons.edu.ng"
                       className="font-medium text-gray-900 hover:text-gray-700 transition-colors"
                     >
                       enquiries@nda.edu.ng
